@@ -55,9 +55,9 @@ export default function Navbar() {
             className="md:hidden"
           >
             {mobileMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-6 h-6 text-gray-800" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-6 h-6 text-gray-800" />
             )}
           </button>
         </div>
